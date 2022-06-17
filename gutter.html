@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app.css">
+  <title>Gutter grid</title>
+</head>
+<body>
+<h1>ROWS</h1>
+<!-- 2 ROWS -->
+<div class="row">
+  <div class="col-1-of-2">Sec 1 of 2</div>
+  <div class="col-1-of-2">Sec 1 of 2</div>
+</div>
+
+ <!-- 3 ROWS -->
+<div class="row">
+  <div class="col-1-of-3">Sec 1 of 3</div>
+  <div class="col-1-of-3">Sec 1 of 3</div>
+  <div class="col-1-of-3">Sec 1 of 3</div>
+</div>
+
+ <div class="row">
+  <div class="col-1-of-3">1 of 3</div>
+  <div class="col-2-of-3">2 of 3</div>
+ </div>
+
+ <!-- 4 ROWS -->
+ <div class="row">
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-1-of-4">1 of 4</div>
+ </div>
+
+ <div class="row">
+  <div class="col-2-of-4">2 of 4</div>
+  <div class="col-2-of-4">2 of 4</div>
+ </div>
+
+<div class="row">
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-3-of-4">3 of 4</div>
+</div>
+
+<!-- 5 ROWS -->
+<div class="row">
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+</div>
+
+<div class="row">
+  <div class="col-2-of-5">2 of 5</div>
+  <div class="col-3-of-5">3 of 5</div>
+</div>
+
+<div class="row">
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-4-of-5">4 of 5</div>
+</div>
+
+
+
+
+
+<!-- COLUMNS -->
+<!-- Before giving class of col, make sure to give height to parent, because it'll inherit -->
+
+<h1>COLUMNS</h1>
+<div class="height-example">
+  <div class="col">
+    <div class="row-1-of-2">1 of 2</div>
+    <div class="row-1-of-2">1 of 2</div>
+  </div>
+</div>
+
+<div class="height-example">
+  <div class="col">
+    <div class="row-1-of-3">1 of 3</div>
+    <div class="row-1-of-3">1 of 3</div>
+    <div class="row-1-of-3">1 of 3</div>
+  </div>
+</div>
+  
+<div class="height-example">
+  <div class="col">
+    <div class="row-1-of-3">1 of 3</div>
+    <div class="row-2-of-3">1 of 3</div>
+  </div>
+</div>
+
+  <!-- 4 and 5 ada di col biasa, tapi kalo bisa pake yang col-small aja -->
+  <!-- 6 and bigger bikin sendiri aja if needed -->
+
+  <!-- For a smaller gutter, gw 2020 udh bikin yg pake $gutter-vertical-small -->
+
+<div class="height-example">
+  <div class="col-small">
+    <div class="row-1-of-4">1 of 4</div>
+    <div class="row-1-of-4">1 of 4</div>
+    <div class="row-1-of-4">1 of 4</div>
+    <div class="row-1-of-4">1 of 4</div>
+  </div>
+</div>
+
+<div class="height-example">
+  <div class="col-small">
+    <div class="row-2-of-4">2 of 4</div>
+    <div class="row-2-of-4">2 of 4</div>
+  </div>
+</div>
+
+<div class="height-example">
+  <div class="col-small">
+    <div class="row-1-of-4">1 of 4</div>
+    <div class="row-3-of-4">3 of 4</div>
+  </div>
+</div>
+
+<div class="height-example">
+  <div class="col-small">
+    <div class="row-1-of-5">1 of 5</div>
+    <div class="row-4-of-5">4 of 5</div>
+  </div>
+</div>
+
+<div class="height-example">
+  <div class="col-small">
+    <div class="row-2-of-5">2 of 5</div>
+    <div class="row-3-of-5">3 of 5</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<hr>
+<!-- NO MARGIN FROM HERE -->
+<h1>NO MARGIN</h1>
+<h1>ROWS</h1>
+<!-- 2 ROWS -->
+<div class="NMrow">
+  <div class="col-1-of-2">Sec 1 of 2</div>
+  <div class="col-1-of-2">Sec 1 of 2</div>
+</div>
+
+<!-- 3 ROWS -->
+<div class="NMrow">
+  <div class="col-1-of-3">Sec 1 of 3</div>
+  <div class="col-1-of-3">Sec 1 of 3</div>
+  <div class="col-1-of-3">Sec 1 of 3</div>
+</div>
+
+<div class="NMrow">
+  <div class="col-1-of-3">1 of 3</div>
+  <div class="col-2-of-3">2 of 3</div>
+</div>
+
+<!-- 4 ROWS -->
+<div class="NMrow">
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-1-of-4">1 of 4</div>
+</div>
+
+<div class="NMrow">
+  <div class="col-2-of-4">2 of 4</div>
+  <div class="col-2-of-4">2 of 4</div>
+</div>
+
+<div class="NMrow">
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-3-of-4">
+    <div class="row">
+      <div class="col-1-of-2">Sec 1 of 2</div>
+      <div class="col-1-of-2">Sec 1 of 2</div>
+    </div>
+  </div>
+</div>
+
+<!-- 5 ROWS -->
+<div class="NMrow">
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+</div>
+
+<div class="NMrow">
+  <div class="col-2-of-5">2 of 5</div>
+  <div class="col-3-of-5">3 of 5</div>
+</div>
+
+<div class="NMrow">
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-4-of-5">4 of 5</div>
+</div>
+<div class="NMrow">
+  <div class="col-1-of-2">Sec 1 of 2</div>
+  <div class="col-1-of-2">Sec 1 of 2</div>
+</div>
+
+<!-- 3 ROWS -->
+<div class="NMrow">
+  <div class="col-1-of-3">Sec 1 of 3</div>
+  <div class="col-1-of-3">Sec 1 of 3</div>
+  <div class="col-1-of-3">Sec 1 of 3</div>
+</div>
+
+<div class="NMrow">
+  <div class="col-1-of-3">1 of 3</div>
+  <div class="col-2-of-3">2 of 3</div>
+</div>
+
+<!-- 4 ROWS -->
+<div class="NMrow">
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-1-of-4">1 of 4</div>
+</div>
+
+<div class="NMrow">
+  <div class="col-2-of-4">2 of 4</div>
+  <div class="col-2-of-4">2 of 4</div>
+</div>
+
+<div class="NMrow">
+  <div class="col-1-of-4">1 of 4</div>
+  <div class="col-3-of-4">3 of 4</div>
+</div>
+
+<!-- 5 ROWS -->
+<div class="NMrow">
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-1-of-5">1 of 5</div>
+</div>
+
+<div class="NMrow">
+  <div class="col-2-of-5">2 of 5</div>
+  <div class="col-3-of-5">3 of 5</div>
+</div>
+
+<div class="NMrow">
+  <div class="col-1-of-5">1 of 5</div>
+  <div class="col-4-of-5">4 of 5</div>
+</div>
+
+
+
+
+<!-- COLUMNS -->
+<!-- Before giving class of col, make sure to give height to parent, because it'll inherit -->
+
+<h1>COLUMNS</h1>
+<div class="height-example">
+  <div class="NMcol">
+    <div class="row-1-of-2">1 of 2</div>
+    <div class="row-1-of-2">1 of 2</div>
+  </div>
+</div>
+
+<div class="height-example">
+  <div class="NMcol">
+    <div class="row-1-of-3">1 of 3</div>
+    <div class="row-1-of-3">1 of 3</div>
+    <div class="row-1-of-3">1 of 3</div>
+  </div>
+</div>
+  
+<div class="height-example">
+  <div class="NMcol">
+    <div class="row-1-of-3">1 of 3</div>
+    <div class="row-2-of-3">1 of 3</div>
+  </div>
+</div>
+
+<div class="height-example">
+  <div class="NMcol">
+    <div class="row-1-of-4">1 of 4</div>
+    <div class="row-1-of-4">1 of 4</div>
+    <div class="row-1-of-4">1 of 4</div>
+    <div class="row-1-of-4">1 of 4</div>
+  </div>
+</div>
+
+<div class="height-example">
+  <div class="NMcol">
+    <div class="row-2-of-4">2 of 4</div>
+    <div class="row-2-of-4">2 of 4</div>
+  </div>
+</div>
+
+<div class="height-example">
+  <div class="NMcol">
+    <div class="row-1-of-4">1 of 4</div>
+    <div class="row-3-of-4">3 of 4</div>
+  </div>
+</div>
+
+<div class="height-example">
+  <div class="NMcol">
+    <div class="row-1-of-5">1 of 5</div>
+    <div class="row-4-of-5">4 of 5</div>
+  </div>
+</div>
+
+<div class="height-example">
+  <div class="NMcol">
+    <div class="row-2-of-5">2 of 5</div>
+    <div class="row-3-of-5">3 of 5</div>
+  </div>
+</div>
+
+  <!-- 6 and bigger bikin sendiri aja if needed -->
+</body>
+</html>

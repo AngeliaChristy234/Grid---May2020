@@ -1,0 +1,26 @@
+html {
+  font-size: 62.5%;
+}
+
+.height-example {
+  height: 20rem;
+  position: relative;
+}
+// GRID
+// Make the grid wider in general, change the rem or make a new one
+$grid-width: 114rem;
+$grid-height: 50rem;
+
+// This is to change the space between col or rows
+$gutter-horizontal: 6rem;
+$gutter-vertical: 6rem;
+$gutter-vertical-small: 3rem; // For col-small
+
+// Mixins
+@mixin clearFix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
